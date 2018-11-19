@@ -1,0 +1,39 @@
+{
+  "name": "node-crunker",
+  "version": "0.0.1",
+  "description": "Simple way to merge or concatenate audio files with the Node Web Audio API.",
+  "main": "./index.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzarca01/node-crunker.git"
+  },
+  "keywords": [
+    "web-audio-api",
+    "node",
+    "es6",
+    "merge",
+    "concatenate",
+    "append",
+    "export",
+    "download"
+  ],
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzarca01/node-crunker/issues"
+  },
+  "homepage": "https://github.com/jzarca01/node-crunker#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.3.0",
+    "save-file": "^2.1.1",
+    "web-audio-api": "^0.2.2"
+  }
+}
