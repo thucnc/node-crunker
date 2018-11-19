@@ -14,7 +14,7 @@ npm install node-crunker
 ## Usage
 
 ```javascript
-const NodeCrunker = require('./src/crunker')
+const NodeCrunker = require('node-crunker')
 const audio = new NodeCrunker()
 ```
 
